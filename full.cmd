@@ -25,7 +25,7 @@ SET PGPASSWORD=%2
  
 REM execute psql by file, even though echo is off, errors will still show
 
-psql -X --variable=ON_ERROR_STOP= -1 -w -f inserData.sql 2> %5\inserData.out
+psql -X --variable=ON_ERROR_STOP= -1 -w -f insertData.sql 2> %5\insertData.out
 
 goto fin                                                                      
                                                                               
